@@ -1,0 +1,158 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  margin: 32px 0 32px 15px;
+}
+.navigation {
+  display: none;
+}
+.header-hamburger {
+  background-color: #5385c1;
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+  padding-right: 15px;
+  border-radius: 3px;
+}
+.hamburger .bar1,
+.bar2,
+.bar3 {
+  width: 15px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 3px;
+}
+.hamburger {
+  padding: 16px;
+}
+.border-bottom {
+  border-bottom: 2px solid #dbdbdb;
+  margin: auto;
+  margin-bottom: 5em;
+}
+.headeer-h1 h1 {
+  padding-left: 15px;
+  margin-bottom: 32px;
+}
+.left-img img {
+  max-width: 450px;
+}
+.col-right h4,
+h6,
+p {
+  padding: 0 10px;
+}
+.col-right h4 {
+  margin: 32px 0;
+}
+.col-right p {
+  line-height: 1.8;
+  font-family: "Raleway", sans-serif;
+}
+.fa {
+  padding: 20px;
+  font-size: 5px;
+  width: 1px;
+  height: 1px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: rgb(209, 208, 193);
+  color: white;
+}
+.fa-twitter {
+  background: rgb(209, 208, 193);
+  color: white;
+}
+.fa-linkedin {
+  background: rgb(209, 208, 193);
+  color: white;
+}
+.col-right .border-bottom {
+  width: 95%;
+  margin: 15px;
+}
+.middle {
+  height: 400px;
+  background-color: #5385c1;
+  margin-top: 7em;
+  width: 100%;
+}
+.middle h1 {
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+}
+.middle p {
+  color: white;
+  text-align: center;
+  line-height: 1.7;
+}
+form {
+  padding: 0;
+  text-align: center;
+}
+.form-in {
+  padding: 15px 0;
+}
+.form-in input {
+  width: 290px;
+  height: 30px;
+  border-radius: 3px;
+
+  background-color: #5385c1;
+  color: white;
+}
+.form-sum button {
+  color: #5385c1;
+  background-color: white;
+  width: 300px;
+  height: 30px;
+  border-radius: 3px;
+}
+.footer-logo {
+  margin: 50px auto;
+}
+.footer-logo,
+img {
+  text-align: center;
+}
+.footer-nav ul,
+a {
+  text-decoration: none;
+  list-style: none;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-nav ul {
+  padding: 0 10px;
+}
+.footer-nav .contact {
+  margin: auto;
+}
+.footer-social-icons ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.footer-social-icons li {
+  padding: 32px 5px;
+}
+.fa-rss {
+  background: rgb(209, 208, 193);
+  color: white;
+}
