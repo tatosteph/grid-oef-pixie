@@ -57,6 +57,7 @@ p {
 .col-right p {
   line-height: 1.8;
   font-family: "Raleway", sans-serif;
+  text-align: left;
 }
 .fa {
   padding: 20px;
@@ -130,8 +131,7 @@ form {
 img {
   text-align: center;
 }
-.footer-nav ul,
-a {
+.footer-nav ul {
   text-decoration: none;
   list-style: none;
   color: gray;
@@ -155,6 +155,10 @@ a {
 .footer-social-icons li {
   padding: 32px 5px;
 }
+.footer-nav a {
+  text-decoration: none;
+  color: gray;
+}
 .fa-rss {
   background: rgb(209, 208, 193);
   color: white;
@@ -173,7 +177,6 @@ a {
     float: left;
   }
   .middle p {
-    margin: 0 250px 32px 250px;
   }
   .form {
     width: 100%;
@@ -191,5 +194,31 @@ a {
     display: flex;
     justify-content: center;
     padding-top: 30px;
+  }
+  .middle p {
+    margin: 0 200px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .header-logo {
+    margin: 60px auto;
+  }
+  .header-hamburger {
+    display: none;
+  }
+  .navigation {
+    display: inline;
+  }
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  .navbar-nav li {
+    padding: 0 15px;
+  }
+  .navbar-nav a {
+    text-decoration: none;
   }
 }
