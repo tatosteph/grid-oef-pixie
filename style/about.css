@@ -120,7 +120,7 @@ form {
   color: #5385c1;
   background-color: white;
   width: 300px;
-  height: 30px;
+  height: 40px;
   border-radius: 3px;
 }
 .footer-logo {
@@ -136,10 +136,13 @@ a {
   list-style: none;
   color: gray;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .footer-nav ul {
   padding: 0 10px;
+}
+.footer-nav li {
+  padding: 0 15px;
 }
 .footer-nav .contact {
   margin: auto;
@@ -155,4 +158,38 @@ a {
 .fa-rss {
   background: rgb(209, 208, 193);
   color: white;
+}
+@media screen and (min-width: 900px) {
+  .left-right {
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+  .col-right {
+    float: right;
+    padding: 45px 0 0 10px;
+  }
+  .col-left {
+    float: left;
+  }
+  .middle p {
+    margin: 0 250px 32px 250px;
+  }
+  .form {
+    width: 100%;
+  }
+  .form-in input {
+    width: 200px;
+  }
+  .form-sum button {
+    width: 200px;
+  }
+  .form-sum {
+    padding: 15px 0 0 10px;
+  }
+  .form form {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  }
 }
