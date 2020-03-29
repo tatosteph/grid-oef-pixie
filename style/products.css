@@ -83,6 +83,9 @@ body {
   width: 100%;
   height: 300px;
 }
+.left-right {
+  width: 100%;
+}
 .left-right .article-1,
 .article-2,
 .article-3,
