@@ -184,6 +184,7 @@ h6 {
   border-radius: 3px;
   background-color: #5385c1;
   color: white;
+  border: solid 1px;
 }
 .form-sum button {
   color: #5385c1;

@@ -137,10 +137,12 @@ form #fname,
 .form-in {
   padding: 15px 0;
 }
+
 .form-in input {
   width: 290px;
   height: 30px;
   border-radius: 3px;
+  border: solid 1px white;
   background-color: #5385c1;
   color: white;
 }
