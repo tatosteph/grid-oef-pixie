@@ -267,26 +267,24 @@ h6 {
   padding: 0;
   text-align: center;
 }
-.form-in {
-  padding: 15px 0;
+.form-in label {
+  padding: 5px 0;
 }
-.form-in input {
+.form-in #femail {
   width: 290px;
   height: 30px;
   border-radius: 3px;
   background-color: #5385c1;
   color: white;
+  border: solid 1px;
 }
-.form-in input {
-  border: 1px solid white;
-  border-radius: 3px;
-}
-.form-sum button {
+#submit {
   color: #5385c1;
   background-color: white;
   width: 300px;
   height: 40px;
   border-radius: 3px;
+  margin-top: 10px;
 }
 .footer-logo {
   margin: 50px auto;
@@ -332,11 +330,11 @@ img {
     display: flex;
 
     padding: 0 20px;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
   }
-
-  .left {
+  .header-h1 {
+    margin-left: 50px;
   }
   .right {
     float: right;
@@ -351,6 +349,19 @@ img {
   }
   .images-one .one {
     margin: auto;
+  }
+
+  .form-in form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+  }
+  .form-in #femail {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .middle p {
+    margin: 0 200px;
   }
 }
 @media screen and (min-width: 1800px) {
@@ -374,6 +385,9 @@ img {
   }
   .navbar-nav a {
     text-decoration: none;
+  }
+  .header-h1 {
+    margin-left: 150px;
   }
   .border-bottom.end {
     display: block;
