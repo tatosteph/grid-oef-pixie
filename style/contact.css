@@ -209,15 +209,7 @@ img {
   .col-right.form {
     width: 100%;
   }
-  .form-in input {
-    width: 200px;
-  }
-  .form-sum button {
-    width: 200px;
-  }
-  .form-sum {
-    padding: 15px 0 0 10px;
-  }
+
   .form form {
     display: flex;
     justify-content: center;

@@ -350,19 +350,6 @@ img {
   .images-one .one {
     margin: auto;
   }
-
-  .form-in form {
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
-  }
-  .form-in #femail {
-    margin-top: 10px;
-    margin-right: 10px;
-  }
-  .middle p {
-    margin: 0 200px;
-  }
 }
 @media screen and (min-width: 1800px) {
   .header-logo {

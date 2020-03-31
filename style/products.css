@@ -180,6 +180,7 @@ h6 {
 .footer-logo,
 img {
   text-align: center;
+  margin-top: 32px;
 }
 .footer-nav ul {
   text-decoration: none;
