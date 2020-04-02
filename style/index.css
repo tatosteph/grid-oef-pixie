@@ -233,6 +233,10 @@ img {
   background: rgb(209, 208, 193);
   color: white;
 }
+.fa-linkedin {
+  background: rgb(209, 208, 193);
+  color: white;
+}
 @media screen and (min-width: 900px) {
   .caption {
     width: 480px;
