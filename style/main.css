@@ -72,10 +72,26 @@ body {
   color: white;
 }
 .fa-linkedin {
-  background: rgb(209, 208, 1s93);
+  background: rgb(209, 208, 193);
   color: white;
 }
-.middle form {
+.middle {
+  height: 400px;
+  background-color: #5385c1;
+  margin-top: 7em;
+  width: 100%;
+}
+.middle h1 {
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+}
+.middle p {
+  color: white;
+  text-align: center;
+  line-height: 1.7;
+}
+form {
   padding: 0;
   text-align: center;
 }
@@ -146,21 +162,24 @@ img {
   .left-right article {
     margin: 0 10px;
   }
+
+  .form {
+    width: 100%;
+  }
+
   .form-in form {
     display: flex;
     justify-content: center;
-    margin-top: 5em;
+    margin-top: 45px;
+  }
+  .form-in label{
+    padding: 15px;
+  }
+  .middle p {
+    margin: 0 200px;
   }
   .form-in #femail {
-    margin-top: 10px;
-    margin-right: 10px;
-  }
-  .middle p {
-    margin: 0 200px;
-  }
-  .middle p {
-    margin: 0 200px;
-  }
+    margin-top: 17px;
 }
 @media screen and (min-width: 1800px) {
   .header-logo {
